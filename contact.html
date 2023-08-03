@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> | Owo</title>
+    <!--______________________________________ Render All Elements Normally ______________________________________-->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!--______________________________________ Font Awesome Library ______________________________________-->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!--______________________________________ Main Template CSS File ______________________________________-->
+    <link rel="stylesheet" href="css/file.css" />
+    <!--______________________________________ Google Fonts ______________________________________-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&#038;display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <a href="home.html"><img src="images/logo-1.png" alt="logo"></a>
+            <nav>
+                <i class="fa-solid fa-bars menu"></i>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="Terms & Privacy.html">About us</a></li>
+                    <li><a class="active" href="contact.html">Contact us</a></li>
+                    <li><a href="#">Account</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="text-contact">
+        <h1>Contact Us</h1>
+        <p>For queries about an order you have placed please contact us
+            by email <br> at <span>Online.Cleaning@ourspace.com</span> or
+            by phone on <span>059 8853 974</span>.</p>
+
+        <p>For general customer enquiries you can call <span>056 8471 284</span> or fill in <br>
+            the enquiry form below and one of our
+            colleagues will get back to <br> you as soon as possible.
+        </p>
+    </div>
+    <div class="form-contact">
+        <form class="form-content" action="contact.html">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" placeholder="first name" required>
+
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" placeholder="last name" required>
+
+            <label for="adress">Adress</label>
+            <input type="text" id="adress" name="adress" placeholder="your adress" required>
+
+            <label for="phone">Phone</label>
+            <input type="tel" placeholder="0591234785" name="phone" pattern="[0-9]{10}" required>
+
+            <label for="Subject">Subject </label>
+            <input type="text" id="Subject" name="Subject" placeholder="enter your subject" required>
+
+            <label for="details">Subject in details </label>
+            <input type="text" id="details" name="details" placeholder="please tell us little bit about your problem"
+                required style="height: 250px;">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <!--______________________________________ Start Footer ______________________________________-->
+    <div class="footer">
+        <div class="container">
+            <h2>| Owo</h2>
+            <p>We Are Social</p>
+            <div class="social-icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fas fa-home"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+            <p class="copyright">&copy; 2022 <span>Owo</span> All Right Reserved</p>
+        </div>
+    </div>
+    <!--______________________________________ End Footer ______________________________________-->
+</body>
+
+</html>
